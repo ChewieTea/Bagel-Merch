@@ -48,3 +48,26 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
+.text-box{
+    width: 60%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(30%, 30%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 32px;
+}
+.text-box p{
+    margin: 10px 0 15px;
+    font-size: 16px;
+    color: #e6d3dd
+}
+.text-box a{
+    color:#fff;
+    width: 30px;
+    position: relative;
+
+}
