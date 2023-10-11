@@ -14,8 +14,8 @@
 <section class="header">
     <nav>
         <a href="index.html"><img src="imageBank/BagelBrown.png" alt="Brown bagel, wholesome and cute"></a> <!-- Adds bagel as clickable icon to the webpage-->
-        <div class="nav-links">
-            <i class="material-icons">close</i>     <!-- Adds Menu icon for phone version (made phone version using @media in style.css)-->
+        <div class="nav-links" id="navLinks">
+            <i class="material-icons" onclick="hideMenu()">close</i>     <!-- Adds Menu icon for phone version (made phone version using @media in style.css)-->
             <ul>        <!-- List of options which will be our menu/navigation for the website-->
                 <li><a href="">HOME</a></li>
                 <li><a href="">ABOUT</a></li>
@@ -26,7 +26,7 @@
                 <li><a href="">CONTACT</a></li>
             </ul>
         </div>
-        <i class="material-icons">menu</i>     <!-- Adds Square X icon for phone. -->  
+        <i class="material-icons" onclick="showMenu()">menu</i>     <!-- Adds Square X icon for phone. -->  
     </nav>
 <div class="text-box">
     <h1>Bagel's Newest Merch Line</h1>
@@ -36,5 +36,17 @@
 
         
     </section>
+<!-------- Javascript for Toggle Menu -------->
+<script>
+     var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
 </body>
 </html>
