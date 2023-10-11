@@ -82,7 +82,7 @@ cursor: pointer;
     transition: 0.6s;
 }
 
-nav .fa-sharp.fa-light{
+nav .material-icons{
     display: none;
 }
 
@@ -103,7 +103,7 @@ nav .fa-sharp.fa-light{
         text-align: left;
         z-index: 2;
     }
-    nav .fa-sharp.fa-light{
+    nav .material-icons{
         display: block;
         color: #fff;
         margin: 10px;
@@ -113,6 +113,5 @@ nav .fa-sharp.fa-light{
     }
     .nav-links ul{
         padding: 20px;
-
     }
 }
