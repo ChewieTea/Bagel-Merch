@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagel Merch</title>
+    <link rel="stylesheet" href="style.css">
+<link href="link rel="preconnect href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">     <!-- Google icon website/host-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="imageBank/BagelBrown.png" alt="Brown bagel, wholesome and cute"></a> <!-- Adds bagel as clickable icon to the webpage-->
+        <div class="nav-links" id="navLinks">
+            <i class="material-icons" onclick="hideMenu()">close</i>     <!-- Adds Menu icon for phone version (made phone version using @media in style.css)-->
+            <ul>        <!-- List of options which will be our menu/navigation for the website-->
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CLOTHES</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">SCHEDULES</a></li>
+                <li><a href="">MEOW</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="material-icons" onclick="showMenu()">menu</i>     <!-- Adds Square X icon for phone. -->  
+    </nav>
+    <h1>About Us</h1>
+
+</section>
+
+<!-- About us content ------->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>BagelTV is the best streamer of all time. </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="" class="box-btn red-btn">EXPLORE NOW</a>       
+        </div>
+        <div class="about-col">
+            <img src="imageBank/loadingBagel.jpg">  <!--I want to put Glitch's Bagel drawing here, the finished version-->
+        </div>
+    </div>
+
+</section>
+
+<!-- Footer ------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Managed by <i><b>@Chewie.Tea</b></i><br>An aspiring Web Dev and Professional Programmer.<br>This is my first website so please be kind, I've hand made all the products and customised the website from a tutorial<br>I hope you have as much fun as I have had making it. It's been a brilliant, eye-opening and educational experience!!<br>I'd also like to mention <i><b>@glitchy_t</b></i> who created the Original Bagel Model which I used for Bagels appearance.<br>Bagel bagel. Bagel when bagel is very bagel the bagel bagel bagels.<br><b>BagelTV?</b></p>
+    <div class="icons">
+        <i class="fa-brands fa-square-facebook" style="color: #6c1f1f;"></i>
+        <i class="fa-brands fa-square-instagram" style="color: #4b2037;"></i>
+        <i class="fa-brands fa-square-twitter" style="color: #6c1f1f;"></i>
+        <i class="fa-brands fa-linkedin" style="color: #4b2037;"></i>
+    </div>
+    <p>Made with <i class="fa-regular fa-heart"></i> by Chewie.Tea  <i class="fa-solid fa-globe"></i></p>
+</section>
+
+
+
+
+<!-------- Javascript for Toggle Menu -------->
+<script>
+     var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
