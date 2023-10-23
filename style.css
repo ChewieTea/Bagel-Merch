@@ -448,14 +448,14 @@ h3{
     box-sizing: border-box;
     border:none;
     outline: none;
-    background: #f0f0f0;
+    background: #b2afc0; /* change this to a better suited colour and for the background too somehow */
 }
 
 .comment-form button{
     margin:10px 0;
 }
 
-@media(max-width: 700px){
+@media(max-width: 700px){  /* puts the blog-right below the blog-left content */
     .blog-content{
         flex-direction: column;
     }
