@@ -7,7 +7,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(imageBank/moreSky.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(image_bank/more_sky.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -100,6 +100,10 @@ nav .material-icons {
 }
 
 @media(max-width: 700px) {
+    .header nav img{
+        width:50%;
+        padding:10px;
+    }
     .text-box h1 {
         font-size: 18px;
         transform: translate(-2%, -2%);
@@ -108,9 +112,13 @@ nav .material-icons {
     .nav-links ul li {
         display: block;
     }
+    .text-box{
+        width:80%;
+        transform: translate(10%,10%);
 
+    }
     .text-box p {
-        font-size: 18px;
+        font-size: 16px;
         transform: translate(-2%, -2%);
 
     }
@@ -138,6 +146,12 @@ nav .material-icons {
 
     .nav-links ul {
         padding: 20px;
+    }
+    .footer h4{
+        font-size: 20px;
+    }
+    .footer p{
+        font-size: 14px;
     }
 }
 
@@ -195,6 +209,9 @@ h3 {
     .row {
         flex-direction: column;
         /*i want to customise these more*/
+    }
+    .course{
+        padding-top:20px;
     }
 }
 
@@ -358,7 +375,7 @@ h3 {
 .cta {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imageBank/ramenGirl.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(image_bank/ramen_girl.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -401,7 +418,7 @@ h3 {
 .sub-header {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(21, 30, 70, 0.6), rgba(21, 30, 70, 0.6)), url(imageBank/realBagelBanner.jpg);
+    background-image: linear-gradient(rgba(21, 30, 70, 0.6), rgba(21, 30, 70, 0.6)), url(image_bank/real_bagel_banner.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
