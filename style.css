@@ -418,7 +418,7 @@ h3 {
 .sub-header {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(21, 30, 70, 0.6), rgba(21, 30, 70, 0.6)), url(image_bank/real_bagel_banner.jpg);
+    background-image: linear-gradient(rgba(21, 30, 70, 0.6), rgba(21, 30, 70, 0.6)), url(image_bank/bagel_banner.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
