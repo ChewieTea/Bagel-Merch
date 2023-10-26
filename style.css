@@ -468,6 +468,7 @@ h3 {
 
 .about-col img {
     width: 100%;
+    height:auto;
 }
 
 .about-col h1 {
@@ -487,6 +488,35 @@ h3 {
 .red-btn:hover {
     color: #fff;
     background: #4b2037;
+}
+
+.achievements {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* to stack items vertically */
+    background:#565;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.achievements-col {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.achievements-col img {
+    width: 60%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding-bottom:10px;
+    padding: 0 40px;
+}
+.achievements-col p{
+    padding: 0 20px;
+    width:80%;
 }
 
 /*### Blog-Content ###*/
