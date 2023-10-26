@@ -494,10 +494,13 @@ h3 {
     text-align: center;
     display: flex;
     justify-content: center;
+    align-content: center;
     flex-direction: column; /* to stack items vertically */
-    background:#565;
+    background:#40102a30;
     border-radius: 10px;
     box-sizing: border-box;
+    max-width: 85%;
+    margin: 0 auto;
 }
 
 .achievements-col {
@@ -510,13 +513,15 @@ h3 {
     width: 60%;
     height: 200px;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 25px;
     padding-bottom:10px;
-    padding: 0 40px;
 }
 .achievements-col p{
     padding: 0 20px;
-    width:80%;
+    width:95.5%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 
 /*### Blog-Content ###*/
