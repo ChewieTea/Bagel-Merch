@@ -591,6 +591,58 @@ h3 {
     flex-direction: column;
 }
 
+.container{
+    padding:2rem;
+    display:flex;
+    justify-content: flex-start;
+}
+
+.slider-wrapper{
+    position:relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider{
+    display: flex;
+    max-width: 600px;
+    max-height: 700px;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 10px 15px 3px rgba(21, 30, 70, 0.9);
+}
+
+.slider img{
+    flex: 1 1 100%;
+    scroll-snap-align: start;
+    object-fit:cover;
+    margin-left:0;
+}
+
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom:1.25rem;
+    left:50%;
+    transform:translateX(-60%);
+    z-index: 1;
+}
+
+.slider-nav a{
+    width:15px;
+    height:10px;
+    border-radius: 20%;
+    background-color: #fff;
+    opacity: 0.65;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover{
+    opacity:1;
+}
+
 
 /*### Blog-Content ###*/
 
